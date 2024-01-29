@@ -23,7 +23,6 @@ func TestFib(t *testing.T) {
 		}
 	}
 }
-
 func benchmarkFib(i int, b *testing.B) {
 	for n := 0; n < b.N; n++ {
 		Fib(i)
